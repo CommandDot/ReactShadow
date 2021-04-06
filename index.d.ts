@@ -1,4 +1,4 @@
-declare module 'react-shadow' {
+declare module '@commanddot/react-shadow' {
     import * as React from 'react';
 
     interface IProps {

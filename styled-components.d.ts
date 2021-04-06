@@ -1,4 +1,4 @@
-declare module 'react-shadow/styled-components' {
+declare module '@commanddot/react-shadow/styled-components' {
     import * as React from 'react';
 
     interface IProps {

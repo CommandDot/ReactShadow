@@ -1,11 +1,11 @@
 {
-    "name": "react-shadow",
-    "version": "19.0.2",
+    "name": "@commanddot/react-shadow",
+    "version": "19.0.4",
     "description": "Utilise Shadow DOM in React with all the benefits of style encapsulation.",
     "main": "react-shadow.js",
     "module": "react-shadow.esm.js",
     "types": "index.d.ts",
-    "repository": "git@github.com:Wildhoney/ReactShadow.git",
+    "repository": "git@github.com:CommandDot/ReactShadow.git",
     "author": "Adam Timberlake <adam.timberlake@gmail.com>",
     "contributors": [
         "Chris Trevino <darthtrevino@gmail.com>"
