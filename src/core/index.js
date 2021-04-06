@@ -18,6 +18,7 @@ ShadowContent.defaultProps = { children: null };
 export default function create(options) {
     const ShadowRoot = forwardRef(
         (
+            // eslint-disable-next-line react/prop-types
             { mode, delegatesFocus, styleSheets, ssr, children, ...props },
             ref,
         ) => {
@@ -40,6 +41,7 @@ export default function create(options) {
                             mode,
                             delegatesFocus,
                         });
+                        // eslint-disable-next-line react/prop-types
                         styleSheets.length > 0 &&
                             (root.adoptedStyleSheets = styleSheets);
                         setRoot(root);
@@ -82,9 +84,7 @@ export default function create(options) {
     ShadowRoot.propTypes = {
         mode: PropTypes.oneOf(['open', 'closed']),
         delegatesFocus: PropTypes.bool,
-        styleSheets: PropTypes.arrayOf(
-            PropTypes.instanceOf(PropTypes.any),
-        ),
+        // styleSheets: PropTypes.arrayOf(PropTypes.instanceOf(PropTypes.any)),
         ssr: PropTypes.bool,
         children: PropTypes.node,
     };
